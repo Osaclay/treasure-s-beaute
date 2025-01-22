@@ -1,0 +1,95 @@
+/* General Modal Styling */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1050; /* Ensure it is above the navbar */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the modal horizontally and vertically */
+    width: 90%;
+    height: auto;
+    max-width: 400px;
+    margin-top: 45px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Add some inner spacing */
+    box-sizing: border-box; /* Ensure padding doesn’t affect width calculations */
+}
+  
+  .modal-content {
+    padding: 20px;
+    position: relative;
+  }
+  
+  .modal h4 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-field input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-field input:focus {
+    outline: none;
+    border-color: #fbc02d;
+  }
+  
+  .input-field label {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .btn {
+    background-color: #fbc02d;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #e6a800;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #f00;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .modal {
+      width: 95%;
+    }
+  
+    .modal-content {
+      padding: 15px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  }
+  

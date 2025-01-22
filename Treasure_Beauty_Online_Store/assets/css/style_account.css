@@ -1,0 +1,473 @@
+/** Import font- "Poppins" **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#site-name{
+   font-size: x-large;
+}
+
+.nav-buttons{
+    margin-left: 30%;
+
+}
+
+.nav-buttons ul .fas{
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+
+h1{font-size: 2.5rem;
+   font-weight: 700;  
+}
+
+h2{font-size: 1.9rem;
+    font-weight: 600;  
+ }
+
+h3{font-size: 1.5rem;
+    font-weight: 800;  
+ }
+
+h4{font-size: 1.2rem;
+    font-weight: 600;  
+ }
+
+ h5{font-size: 1rem;
+    font-weight: 400;  
+ }
+
+ h6{color: #d8d8d8;  
+ }
+
+ .button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border:none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+ }
+
+ .button:hover{
+    color: coral;
+ }
+
+ .navbar{
+    font-size: 16px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+ }
+
+ .navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #000;
+    transition: 0.4s ease;
+ }
+
+ .navbar-light .navbar-nav .nav-link:hover,
+ .navbar i:hover,
+ .navbar-light .navbar-nav .nav-link.active
+ .navbar i:hover{
+  color: coral;
+ }
+
+ .navbar i{
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    margin-left: 5px;
+ }
+
+ @media only screen and (max-width:990px){
+    .nav-buttons{
+        margin: 10px;
+    }
+    .nav-buttons ul{
+        margin: 0.5rem;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .nav-buttons ul li{
+      margin-bottom: 3.5%;
+  }
+    .nav-buttons ul .fas{
+        margin: 20px 5px 10px 20px;
+    }
+ }
+
+
+/* Account Section */
+section.my-5.py-5 {
+    padding: 80px 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .text-center h3 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .account-info {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 1.8;
+  }
+  
+  .account-info p span {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  #orders-btn,
+  #logout-btn {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  #orders-btn:hover,
+  #logout-btn:hover {
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+  }
+  
+  #account-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #account-form h3 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #account-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #account-form .form-group label {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  #account-form .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+  }
+  
+  #account-form .form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+  }
+  
+  #change-pass-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #change-pass-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Orders Section */
+  .orders {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .orders h2 {
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .orders table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders th,
+  .orders td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .orders th {
+    font-size: 0.9rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .orders td img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+  }
+  
+  .orders td p {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .orders td span {
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    section.my-5.py-5 {
+      padding: 40px 10px;
+    }
+  
+    #account-form {
+      padding: 20px;
+    }
+  
+    #account-form .form-group input {
+      font-size: 0.9rem;
+    }
+  
+    #change-pass-btn {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  
+    .orders table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .orders td img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+
+  /* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer h5 {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  footer ul li a:hover {
+    color: #fff;
+  }
+  
+  footer .footer-one p {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  footer .footer-one a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  footer .copyright {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+    text-align: center;
+  }
+  
+  footer .copyright a {
+    color: #aaa;
+    text-decoration: none;
+  }
+  
+  footer .copyright a:hover {
+    color: #fff;
+  }
+  
+  footer .img-fluid {
+    border-radius: 8px;
+  }
+  
+  footer{
+    background-color: #222222;
+ }
+ 
+ footer{
+    color: #d8d8d8;
+    font-weight: 400;
+    font-size: 1rem;
+ }
+ 
+ footer li{
+    padding-bottom: 4px;
+    list-style: none; /*Removes bullet points*/
+ }
+ 
+ footer li a {
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+ }
+ 
+ footer li a:hover{
+    color: #d8d8d8;
+ }
+ 
+ footer .copyright a{
+    color: #000;
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50px;
+    transition: o.3s ease;
+    margin: 0 5px;
+ }
+ 
+ footer .copyright a:hover{
+    background-color: #fb774b;
+    color: #fff;
+ }
+ 
+ footer p{
+    color: #fff;
+ }
+ 
+ footer .copyright img{
+    width: 50%;
+ }
+ 
+ .payment{
+    border-radius: 5px;
+ }
+ 
+ .logo{
+    width: 2.5%;
+ }
+ 
+ .copyright{
+    font-size: small;
+ }
+ 
+ #footer-logo{
+    color: coral !important;
+ }
+ 
+ #footer-logo:hover{
+    color: white !important;
+ }
+ 
+ #logo{
+    color: coral !important;
+ }
+ 
+ #logo:hover{
+    color: black !important;
+ }
+ 
+ .pagination-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    margin: 20px 0; /* Adds space above and below the pagination */
+  }
+  
+  .pagination {
+    list-style: none; /* Removes default bullets */
+    display: flex; /* Makes the pagination items inline */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+  }
+  
+  .pagination li {
+    margin: 0 5px; /* Adds spacing between pagination items */
+  }
+  
+  .pagination a {
+    display: block; /* Ensures clickable area is consistent */
+    padding: 10px 15px; /* Adds spacing inside links */
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px; /* Rounds button corners */
+    transition: 0.3s; /* Adds hover animation */
+  }
+  
+  .pagination a:hover {
+    background-color: coral; /* Changes background color on hover */
+    color: #000;
+  }

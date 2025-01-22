@@ -1,0 +1,32 @@
+/* Modal Header Styling */
+.modal-header {
+    background-color: #f4c20d;
+    color: #fff;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-control {
+    border-radius: 8px;
+  }
+  
+  .btn-warning {
+    background-color: #f4c20d;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #daa106;
+    color: #fff;
+  }
+  
